@@ -1,5 +1,6 @@
 import numpy as np
 import nltk
+nltk.download('stopwords')
 import re
 from nltk.corpus import stopwords
 from gensim.models import Word2Vec
